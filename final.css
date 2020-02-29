@@ -245,7 +245,7 @@ h4{
   font-size: 100px;
   text-shadow: 4px 4px 4px #aaa;
   background-image: url(36pho.jpg);
-  width: 1050px;
+  width: 1070px;
   height: 300px;
   margin-left: -20px;
   padding-left: 40px;
@@ -256,7 +256,7 @@ h4{
   
 }
 #details{
-  width: 1000px;
+  width: 1040px;
   margin-left:-150px;
 }
 
@@ -281,23 +281,10 @@ h4{
   background-color: red;
   width:90%;
 }
-#aboutus{
-  border-width: 5px;
-  border-color: black;
-  border-radius: 10%;
-  width: fit-content;
-  text-align: right;
-  height: 40px;
-  font-size: 25px;
-  margin-left: 900px;
-  background-color: white;
-  margin-top: 20px;
-}
-
 #whole{
   background-image: url(107-1073025_old-paper-texture-wallpapers-old-paper-texture-1080.jpg);
-  width: 1080px;
-  padding-left: -40px;
+  width: 1090px;
+  margin-left: -10px;
 }
 
 #frame{
@@ -310,3 +297,72 @@ h4{
 {
   font-size: xx-large;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  margin-left: -20px;
+  padding: 0;
+  overflow: hidden;
+  background-image:url(82bf3ee5f7481c41fb3b4d4fc8a71585.jpg);
+  background-size:cover;
+  height: 50px;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 1090px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: x-large;
+  font-family:'Lobster', serif; 
+}
+
+li a:hover {
+  background-color: white;
+}
+
+
+.imagedropshadow {
+  padding: 5px;
+  border: solid 1px #EFEFEF;
+}
+a:hover img.imagedropshadow {
+  border: solid 1px #CCC;
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+      box-shadow: 1px 1px 5px #999;
+}
+
+.items{
+  margin-left: -10px;
+}
+
+.home{
+  margin-left: 10px;
+  background-color: brown;
+}
+
+.tenor-gif-embed{
+  width: 100px;
+  height: 80px;
+  margin-left: 500px;
+}
+
+#endingGoodbye{
+  margin-left: 290px;
+  font-size: xx-large;
+  font-family: 'Merriweather', serif;
+}
+

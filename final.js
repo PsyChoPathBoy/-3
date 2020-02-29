@@ -18,6 +18,7 @@ async function detail(){
             content.innerHTML = '';
             let detailContent = `
             <div id ="details" >
+            <div id="imgdetail"><img src="${i}.jpg"</div>
             <h1>${data[i].Ten}</h1>
             <div style="background: url(${i}${i+1}.jpg); "></div>
             <h3>${data[i].Description}<h3>
@@ -47,9 +48,10 @@ async function renderData(){
     
     for(let i = 0; i < data.length; i++){
         let detail =   `<div class='items'>
-                            <div style="width: 300px; height : 300px; background: url(${i}.jpg);margin-top:25px"></div>
+                            <a style="margin-top:25px" :hover><img class="imagedropshadow" src="${i}.jpg" width="300px" height="300px"></a>
                             <h2 id='name'>${data[i].Ten}</h2>
-                        </div>`;
+                        </div>
+                        `;
         
         
         content.insertAdjacentHTML('beforeend', detail);
